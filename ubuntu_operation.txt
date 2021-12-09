@@ -1,0 +1,5 @@
+1、ubuntu 删除没用的包https://blog.csdn.net/moses1994/article/details/79016529
+2、建议用chrome，其插件库很丰富，比如flash，不用安装插件就可以顺利播放
+3、当有命令被占用时，可以直接重启解决问题
+4、git push 不能通过git认证，可以使用git clone +SSH链接，目前在code绿色按钮可以找到。具体看实验楼操作，很方便
+
