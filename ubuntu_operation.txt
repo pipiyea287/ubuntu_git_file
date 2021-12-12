@@ -2,4 +2,7 @@
 2、建议用chrome，其插件库很丰富，比如flash，不用安装插件就可以顺利播放
 3、当有命令被占用时，可以直接重启解决问题
 4、git push 不能通过git认证，可以使用git clone +SSH链接，目前在code绿色按钮可以找到。具体看实验楼操作，很方便
+5\vscode terminal the type of fonts can be amended in preferences: the font of family:  nonspace
+vscode 配置jupyter, when you install the extension of python, the jupyter has already been installed. You can open a jupyter note book by vscode, then choosing a environment(aksing that python >= 3.7), on this time, you can easily coding in vscode by jupyter. But there is a problem which is we can't create a jupyter notebook, and do not find a solution.
+6 git clone +SSH touch git add git commit git push
 
