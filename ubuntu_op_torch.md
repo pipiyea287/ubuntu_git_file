@@ -23,4 +23,6 @@ torch.cat((x, y), dim=1),
 torch.cat((x, y), dim=2))
 ```
 the output is like this
- ![output tensor](./tensor_torch.png)
+ ![output tensor](https://github.com/pipiyea287/ubuntu_git_file/blob/main/torch_tensor.png)  
+ 
+  **所以第一个括号里面是行，第二个括号里面是列，第三个括号里面是dim3**
