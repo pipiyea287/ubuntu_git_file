@@ -1,3 +1,12 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ## 采样  
 ### 上采样  
 放大图像，使用内插值，在原有图像像素的基础上采用合适的插值算法插入新值。  
@@ -17,8 +26,5 @@
 ## 目前看到的很多概念
   轮廓波(contourlet)、曲波(curvelet)、平移不变性（位移方差）(shift invariance)，aliasing（混叠），shearlet（剪切）  
 
-$
-\sum_{i=1}^{100}{i^2}
-$
-$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $
-$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
+***借用网站可以让md 展示公式，github 支持的md是轻量级的html script语言，原生不支持公式插入***  
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= \sum_{i=1}^{100}{i^2}" style="border:none;">
