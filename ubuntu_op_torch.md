@@ -25,4 +25,14 @@ torch.cat((x, y), dim=2))
 the output is like this
  ![output tensor](https://github.com/pipiyea287/ubuntu_git_file/blob/main/torch_tensor.png)  
  
-  **所以第一个括号里面是行，第二个括号里面是列，第三个括号里面是dim3**
+  **所以第一个括号里面是行，第二个括号里面是列，第三个括号里面是dim3**  
+  
+  **数据操作与实现 1.2**
+  注意`广播机制`，对于两个tensor，如若大小不一致，会直接通过复制补全从而相加
+  ```python
+  a = torch.arange(3).reshape((3, 1))
+b = torch.arange(2).reshape((1, 2))
+print(a, '\n', b, '\n')
+print(a + b)
+```
+  ![propogation mechinism](picture/propagation.png)
