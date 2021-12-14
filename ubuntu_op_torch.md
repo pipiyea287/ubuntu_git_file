@@ -23,4 +23,4 @@ torch.cat((x, y), dim=1),
 torch.cat((x, y), dim=2))
 ```
 the output is like this
- 
+ ![output tensor](./tensor_torch.png)
