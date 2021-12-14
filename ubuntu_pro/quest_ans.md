@@ -1,21 +1,5 @@
-**One-hot-encode with pandas**  
-```python
-import os
-import pandas as pd
-#path = '~\下载\code_vs\covid_test.csv'
-data = pd.read_csv(data_file)
-print(data)
-```
-```python
-inputs, outputs = data.iloc[:, 0:2], data.iloc[:, 2]
-inputs = inputs.fillna(inputs.mean())
-print(inputs)
-inputs = pd.get_dummies(inputs, dummy_na=True)
-print(inputs)
-```
-**intepretation**  
-
-     get-dummies, this is a function to fulfill one_hot_encode  
-     and one-hot-encoed just thinks all the varible characters as variable  characters and use 0001 to encode them
-
-![pandas.one-hot]()
+***ubuntu 安装位置***  
+一般在/opt 或者 /usr/local 应该和安装命令有关  
+***移动复制文件无权限***  
+     1、sudo nautius 弹出具有权限的文件管理  
+     
