@@ -1,0 +1,22 @@
+## 向量求导  
+  [求导公式](https://blog.csdn.net/lipengcn/article/details/52815429)  
+  [视频链接：李沐](https://www.bilibili.com/video/BV1eZ4y1w7PY?from=search&seid=4070688631110788090&spm_id_from=333.337.0.0)  
+  
+## 自动向量求导  
+```python  
+from mxnet import autograd, nd
+with autograd.record():
+  a = nd.ones((2, 1))
+  b = nd.ones(2, 1))
+  c = 2 * a + b
+  ```  
+  ### 计算图  
+    1将代码分解成操作子  
+    2将计算表示成无环图  
+    3.1显示构造: tensorflow/Theano/MXNet  
+    3.2隐式构造：PyTorch/MXNet
+ ### 自动求导的两种模式 
+    例如：z = (<x,w>-y)^2 : 令b=<x,w>-y a=<x,w>
+    1 反向累积a->b->z 先求partial(a)/partial(w)，然后一步步求，和递归很像。
+    2 正向累积z->b->a 这里先求partial(z)/partial(b), 然后求partial(z)/partial(a)，在这里partial(z)/partial(a)=partial(z)/partial(b)*partial(b)/partial(a)，显然要利用到前一步的结果。
+    
