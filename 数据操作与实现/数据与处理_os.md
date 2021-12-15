@@ -43,6 +43,8 @@ sum_A = A.sum(axis=1, keepdims=True)
 绝对值之和，![](http://latex.codecogs.com/svg.latex?\|\|x\|\|_1=\sum_{i=1}^n{\|x_i\|})  
 .abs(u).sum()
 ### Frobenius norm 矩阵元素的平方和的平方根
-![](http://latex.codecogs.com/svg.latex?\|\|x\|\|_F=\sqrt{\sum_{j=1}^m{\sum_{j=1}^n{x_{ij}^2}})  
+![](http://latex.codecogs.com/svg.latex?\|\|X\|\|_F=\sqrt{\sum_{j=1}^m{\sum_{j=1}^n{x_{ij}^2}}})  
 .ones
-
+## 张量
+统计使用张量较多，偏数学
+ 
