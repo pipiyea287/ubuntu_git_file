@@ -4,5 +4,8 @@
      1、sudo nautius 弹出具有权限的文件管理 
  ## ubutnu 截图快捷键
      shift + screenprint 然后就可以直接截图
+ ## 使用豆瓣源加速pip install
+ [豆瓣源使用](https://blog.csdn.net/mid_Faker/article/details/106930814)
+ 
      
      
