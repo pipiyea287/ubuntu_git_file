@@ -29,5 +29,6 @@
 这方面资料比较少，找到的资料感觉也非常专业，没有通俗性的解释。
 ## over-complete dictionary
     using with fat matrix(sparse matrix), for orthogonal base , it is solomnly asked and simple. For fat matrix, there are excessive columns to portray the image. Further more, the noise can't be descaibed with sparse base.  
-  
+### panchromatic image and intensity component
+
 
