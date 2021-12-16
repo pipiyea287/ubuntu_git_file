@@ -23,8 +23,11 @@ with autograd.record():
   ## 自动求导codes
   ```python
   x = torch.arange(4.0)
+   #find a space to save teh grad, so you can easily print the grad by x.grad. Of course, it is equallent to x = torch.arange(4.0, requires_grad=True
+  x.requires_grad_(True)
   y = x * x
-  y.sum().backward()#等价y.backward(torch.ones(len(x))
+   #等价y.backward(torch.ones(len(x))
+  y.sum().backward() 
   x.grad
   ```
   ```python
@@ -34,4 +37,8 @@ with autograd.record():
     x.grad.zero_()就是对grad全赋值0  
      .sum()操作其实是将向量求导转化为标量求导，深度学习中大多数都是转化为标量在操作求导
      
-    
+   ## 回归预测
+   线性回归是对n维输入的加权，外加偏差
+    使用平方损失来衡量预测值和真实值的差异
+    线性回归有显示解，一般深度学习解决的问题都很复杂，是模型自己训练出来函数去达到我们的目的，很难自己构造函数。
+    线性回归可以看作是单层神经网络
