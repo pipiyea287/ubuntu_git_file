@@ -25,6 +25,9 @@
   ![Laplacian pyramid](https://upload-images.jianshu.io/upload_images/1817489-942d30565e99358c.png?imageMogr2/auto-orient/strip|imageView2/2/w/992/format/webp)
 ## 目前看到的很多概念
   轮廓波(contourlet)、曲波(curvelet)、平移不变性（位移方差）(shift invariance)，aliasing（混叠），shearlet（剪切）  
+## 剪切波
+这方面资料比较少，找到的资料感觉也非常专业，没有通俗性的解释。
+## over-complete dictionary
+    using with fat matrix(sparse matrix), for orthogonal base , it is solomnly asked and simple. For fat matrix, there are excessive columns to portray the image. Further more, the noise can't be descaibed with sparse base.  
+  
 
-***借用网站可以让md 展示公式，github 支持的md是轻量级的html script语言，原生不支持公式插入***  
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \sum_{i=1}^{100}{i^2}" style="border:none;">
