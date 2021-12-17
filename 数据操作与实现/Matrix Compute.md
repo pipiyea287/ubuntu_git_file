@@ -45,5 +45,7 @@ with autograd.record():
     
    ## 关于损失求平均值  
    
-   $$ W_{t }= W_{t-1} - \eta\frac{\partial{l}}{\partial{W_{t-1}}} $$
+   ![](http://latex.codecogs.com/svg.latex?W_{t}=W_{t-1}-\eta\frac{\partial{l}}{\partial{W_{t-1}}})
+   如果在loss里面没有除以batch_size，最后在loss里面就是nloss，求导之后也会多出n。
+   **现在才发现是通过loss达到最优去寻找合适的函数，是对loss求导，然后更改features**
     
