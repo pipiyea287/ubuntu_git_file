@@ -44,5 +44,6 @@ with autograd.record():
     线性回归可以看作是单层神经网络
     
    ## 关于损失求平均值  
-   ![](http://latex.codecogs.com/svg.latex?W_t = W_{t-1} - \eta\frac{\partial{l}}{\partial{W_{t-1}}})  
+ 
+ ![](http://latex.codecogs.com/svg.latex? W_t = W_{t-1} - \eta\frac{\partial{l}}{\partial{W_{t-1}}})  
     
