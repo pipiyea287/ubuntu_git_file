@@ -30,5 +30,9 @@
 ## over-complete dictionary
     using with fat matrix(sparse matrix), for orthogonal base , it is solomnly asked and simple. For fat matrix, there are excessive columns to portray the image. Further more, the noise can't be descaibed with sparse base.  
 ### panchromatic image and intensity component
+这部分暂时还不太知道
+### morphological analysis
+这里是NLP自然语言处理的一个任务，形态分析，具体是对单词的词态进行分析，分析它是由什么组成，词干、词缀等等
+
 
 
