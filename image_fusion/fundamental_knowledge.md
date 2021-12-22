@@ -41,4 +41,7 @@
    image registration 通常是图像融合的一个预处理步骤，经过精确图像配准的图像对，通常可获得更好的融合效果。
 ### 马佳义
 [马佳义的一些成果](https://blog.csdn.net/baidu_40840693/article/details/103767747)
-
+### 多尺度几何分析
+[简略介绍](https://blog.csdn.net/jbb0523/article/details/42689465)
+### 图像融合的一些论文，关于可见光和红外光
+[论文总结](https://blog.csdn.net/m0_37933882/article/details/107613719)
