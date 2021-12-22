@@ -39,5 +39,6 @@
 ### image registration
    对于一组图像数据集中的两幅图像，通过一种空间变换把一幅图像（浮动图像 moving image）映射到另一幅图像（fixedimage，参考图像）上，使得两图中对应于空间同一位置上的点一一对应起来，从而达到信息融合的目的。  
    image registration 通常是图像融合的一个预处理步骤，经过精确图像配准的图像对，通常可获得更好的融合效果。
-
+### 马佳义
+[马佳义的一些成果](https://blog.csdn.net/baidu_40840693/article/details/103767747)
 
