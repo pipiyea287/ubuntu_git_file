@@ -45,3 +45,5 @@
 [简略介绍](https://blog.csdn.net/jbb0523/article/details/42689465)
 ### 图像融合的一些论文，关于可见光和红外光
 [论文总结](https://blog.csdn.net/m0_37933882/article/details/107613719)
+### patch的概念
+pacth就是kernel，卷积神经网络中的概念，每次对一个patch操作。
