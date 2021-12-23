@@ -47,3 +47,12 @@
 [论文总结](https://blog.csdn.net/m0_37933882/article/details/107613719)
 ### patch的概念
 pacth就是kernel，卷积神经网络中的概念，每次对一个patch操作。
+### 关于Gauss pyramid: up sampling and down sampling and Laplacian Pyramid 
+[interpretaion](https://zhuanlan.zhihu.com/p/80362140)
+### pseudo-Gibbs phenomenon
+图像的傅里叶变换 ，由于其变换本身有多种成熟的快速算法（FFT算法），而且性能接近于最佳，从而获得较早的也比较广泛的研究。它的不足之处在于：相邻子图像数据在各个边界不连续造成的所谓Gibbs现象。这是由于图像数据的二维傅里叶变换实质上是一个二维图像的傅立叶展开式。这个二维图像应被认为是周期性的。由于子图像的变换系数在边界不连续 ，而将造成复原的子图像在其边界也不连续 。于是由复原子图像构成的整幅复原图像将呈现隐约可见的以子图像尺寸为单位的方块状结构，影响整个图像质量 。当子图像尺寸较小时更为严重。
+### NSCT
+[interpretation](https://www.cnblogs.com/wxl845235800/p/12178756.html)
+### shift varience
+[interpretation(]https://www.cnblogs.com/fydeblog/p/11083664.html)  
+in this article, it propose a very simple instance to illustrate the shift invarience. unlike max pooling, to preserve the shift invarience, it join the step of blur, like Gaussian filter to make it smoother, so it avoid shift exquitely.
