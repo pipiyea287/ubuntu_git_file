@@ -56,3 +56,6 @@ pacth就是kernel，卷积神经网络中的概念，每次对一个patch操作�
 ### shift varience
 [interpretation(]https://www.cnblogs.com/fydeblog/p/11083664.html)  
 in this article, it propose a very simple instance to illustrate the shift invarience. unlike max pooling, to preserve the shift invarience, it join the step of blur, like Gaussian filter to make it smoother, so it avoid shift exquitely.
+### sparse representation
+[easy_understand_interpretation](https://zhuanlan.zhihu.com/p/151901026)
+sparse representation is found in humen' visual system. We just use few but complete features to recognize a person. So in machine learning, we do not need so many features that they are over-complete for  recognizing. We use sparse representation and compose them in a dictionary that is over completed,  hence we just need fewer coefficients. It means more complete the dictionary is, the fewer coefficinets we need. The dictionary we can learning from the huge dataset, then with a common dictionary, we just need the position of the representation in the dictionary to encode in the process。 When output, decode the position information with the dictionary. So we enhance the efficient of the computation.
