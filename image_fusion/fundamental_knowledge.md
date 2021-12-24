@@ -48,7 +48,7 @@
 ### patch的概念
 pacth就是kernel，卷积神经网络中的概念，每次对一个patch操作。
 ### 关于Gauss pyramid: up sampling and down sampling and Laplacian Pyramid 
-[interpretaion](https://zhuanlan.zhihu.com/p/80362140)
+[interpretaion](https://bianhaunzhuanlan.zhihu.com/p/80362140)
 ### pseudo-Gibbs phenomenon
 图像的傅里叶变换 ，由于其变换本身有多种成熟的快速算法（FFT算法），而且性能接近于最佳，从而获得较早的也比较广泛的研究。它的不足之处在于：相邻子图像数据在各个边界不连续造成的所谓Gibbs现象。这是由于图像数据的二维傅里叶变换实质上是一个二维图像的傅立叶展开式。这个二维图像应被认为是周期性的。由于子图像的变换系数在边界不连续 ，而将造成复原的子图像在其边界也不连续 。于是由复原子图像构成的整幅复原图像将呈现隐约可见的以子图像尺寸为单位的方块状结构，影响整个图像质量 。当子图像尺寸较小时更为严重。
 ### NSCT
@@ -60,3 +60,19 @@ in this article, it propose a very simple instance to illustrate the shift invar
 [easy_understand_interpretation](https://zhuanlan.zhihu.com/p/151901026)  
 sparse representation is found in humen' visual system. We just use few but complete features to recognize a person. So in machine learning, we do not need so many features that they are over-complete for  recognizing. In contrary, we use sparse representation and compose them in a dictionary that is over-completed.In other words, the more complete the dictionary is, the fewer coefficinets we need. Furthermore, the dictionary we can learning from the huge dataset,.Then by a common dictionary, we just need the position of the representation in the dictionary to encode in the process。 When output, decode the position information with the dictionary. So we enhance the efficient of the computation.
 ## You really need put prmium on the logic of  your eassy when you are writing, otherwise it will be  incoherent sentances which are difficult for understanding.
+### multi-scale transform
+对于不同大小的图片，往往需要不同的尺度去描述。对于较小的图片就需要高分辨率，而对于较大的图片，就不需要高分辨率，而仅仅通过低分辨率关注轮廓即可。而当一张图片有不同大小的图片时，多尺度就具有更大的优势。  
+图像的尺度是指图像内容的粗细程度。尺度的概念是用来模拟观察者距离物体的远近的程度。 具体来说，观察者距离物体远，看到物体可能只有大概的轮廓；观察者距离物体近，更可能看到物体的细节，比如纹理，表面的粗糙等等。从频域的角度来说，图像的粗细程度代表的频域信息的低频成分和高频成分。 粗质图像代表信息大部分都集中在低频段，仅有少量的高频信息。细致图像代表信息成分丰富，高低频段的信息都有。
+
+尺度空间分为线性尺度空间和非线性尺度空间。这里仅讨论线性尺度空间。
+
+在数学上，空间(space)是指具有约束条件的集合(set)。图像的尺度空间是指同一张图像不同尺度的集合。在该集合中，细尺度图像通过filter形成粗尺度图像，即粗尺度图像的形成过程是高频信息被过滤的过程，不会引入新的杂质信息，因此任何存在于粗尺度图像下的内容都能在细尺度图像下找到。举个例子，如果你想看一颗树而不是叶子，可以故意删除图像中的某些细节（例如树叶树枝等），在摆脱这些细节时，必须确保不引入新的虚假细节。做到这一点的唯一方法是使用高斯模糊（已通过数学证明）。  
+尺度和分辨率不是划等号的关系，尺度是通过高斯模糊来降低的
+获取这种多尺度，一般采用金字塔，比如高斯金字塔，拉普拉斯金字塔等
+[easy_understanding_interpretation](https://blog.csdn.net/weixin_43026262/article/details/103138098)
+### 图像的高频和低频信息
+图像的频率：衡量灰度值变化剧烈程度的指标，是灰度在平面空间上的梯度。  
+高频就是灰度梯度变化大，因此边缘检测保存的就是高频信息。  
+图像的高频：梯度变化大的地方，比如图像的边缘（laplace pyramid,就是通过差分保存了这种高频信息，包含了细节信息。  
+图像的低频：高频轮廓内的变化缓慢的地方。  
+多尺度变化中，随着金字塔的层层向上，其实就是保留了图像的低频信息。
