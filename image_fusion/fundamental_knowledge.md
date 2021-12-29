@@ -81,3 +81,6 @@ sparse representation is found in humen' visual system. We just use few but comp
 for the K-SVD is a method to get the best sparse representation.
 ### infrared and visible image fusion:RFN-Nest: An end-to-end residual fusion network for infrared and visible images
 [paper_link](https://zhuanlan.zhihu.com/p/387858991)
+### something about the weavelet transform
+![weavelet](https://upload-images.jianshu.io/upload_images/23662232-d2d8b8f67a61e0e6.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)  
+from the picture above, we can find that weavelet has better locality about time compared to sine.
