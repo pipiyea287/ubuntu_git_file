@@ -76,3 +76,11 @@ sparse representation is found in humen' visual system. We just use few but comp
 图像的高频：梯度变化大的地方，比如图像的边缘（laplace pyramid,就是通过差分保存了这种高频信息，包含了细节信息。  
 图像的低频：高频轮廓内的变化缓慢的地方。  
 多尺度变化中，随着金字塔的层层向上，其实就是保留了图像的低频信息。
+### K-SVD
+[interpretation](https://blog.csdn.net/liudingbobo/article/details/78490384)  
+for the K-SVD is a method to get the best sparse representation.
+### infrared and visible image fusion:RFN-Nest: An end-to-end residual fusion network for infrared and visible images
+[paper_link](https://zhuanlan.zhihu.com/p/387858991)
+### something about the weavelet transform
+![weavelet](https://upload-images.jianshu.io/upload_images/23662232-d2d8b8f67a61e0e6.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)  
+from the picture above, we can find that weavelet has better locality about time compared to sine.
