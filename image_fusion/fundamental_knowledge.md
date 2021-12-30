@@ -84,3 +84,6 @@ for the K-SVD is a method to get the best sparse representation.
 ### something about the weavelet transform
 ![weavelet](https://upload-images.jianshu.io/upload_images/23662232-d2d8b8f67a61e0e6.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)  
 from the picture above, we can find that weavelet has better locality about time compared to sine.
+### weavelet transform 
+[popular and easy to understand](https://zhuanlan.zhihu.com/p/22450818)  
+there are 2 dimensions signals in image which is not easy for wavelet transform that is adapt at processing 1 dimension signals.
