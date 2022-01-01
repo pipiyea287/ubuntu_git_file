@@ -87,3 +87,5 @@ from the picture above, we can find that weavelet has better locality about time
 ### weavelet transform 
 [popular and easy to understand](https://zhuanlan.zhihu.com/p/22450818)  
 there are 2 dimensions signals in image which is not easy for wavelet transform that is adapt at processing 1 dimension signals.
+### image pyramid
+[gauss laplace pyramid](https://zhuanlan.zhihu.com/p/80362140)
