@@ -91,3 +91,6 @@ there are 2 dimensions signals in image which is not easy for wavelet transform 
 [gauss laplace pyramid](https://zhuanlan.zhihu.com/p/80362140)
 ### prooblem with gradient vanish, ReLU, leaky ReLU
 [easy to understand](https://zhuanlan.zhihu.com/p/427541517)
+### 2D-wavelet transform
+[simple explanation](https://blog.csdn.net/daisy9212/article/details/49184271)
+[explanation_2](https://zhuanlan.zhihu.com/p/356794989)
