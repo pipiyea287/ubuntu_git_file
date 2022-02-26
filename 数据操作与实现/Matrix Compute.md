@@ -48,4 +48,8 @@ with autograd.record():
    ![](http://latex.codecogs.com/svg.latex?W_{t}=W_{t-1}-\eta\frac{\partial{l}}{\partial{W_{t-1}}})
    如果在loss里面没有除以batch_size，最后在loss里面就是nloss，求导之后也会多出n。
    **现在才发现是通过loss达到最优去寻找合适的函数，是对loss求导，然后更改features**
-    
+   ## 模型超参数
+   模型参数可以从学习中自动更新，而超参数由人为设定。比如epoches, learning rate, batch_size and so on.
+   ## light weight cnn
+   [introduction](https://blog.51cto.com/remyspot/2159218)   
+      light weight 应该就是模型的轻量化，从而减小对算力的要求。
