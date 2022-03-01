@@ -94,3 +94,6 @@ there are 2 dimensions signals in image which is not easy for wavelet transform 
 ### 2D-wavelet transform
 [simple explanation](https://blog.csdn.net/daisy9212/article/details/49184271)
 [explanation_2](https://zhuanlan.zhihu.com/p/356794989)
+### the difference between edge and boundary
+[easy to understand](https://www.zhihu.com/question/314914894)    
+    对于一个二维图像，本身有边界xy（boundary），而如果把每个像素的灰度值当作h，得到一个三维图像，这图像的边沿即是edge。
