@@ -97,3 +97,9 @@ there are 2 dimensions signals in image which is not easy for wavelet transform 
 ### the difference between edge and boundary
 [easy to understand](https://www.zhihu.com/question/314914894)    
     对于一个二维图像，本身有边界xy（boundary），而如果把每个像素的灰度值当作h，得到一个三维图像，这图像的边沿即是edge。
+### subsampling, downsampling
+子采样以及下采样，subsampling may be a concept for pooling of convolution.     
+    [some related material](https://zhuanlan.zhihu.com/p/112216409)
+### feature map
+[easy to understand](https://blog.csdn.net/boon_228/article/details/81238091)   
+    some materials about the pooling operation. There are as many convolution kernels as there are feature maps.
