@@ -103,3 +103,5 @@ there are 2 dimensions signals in image which is not easy for wavelet transform 
 ### feature map
 [easy to understand](https://blog.csdn.net/boon_228/article/details/81238091)   
     some materials about the pooling operation. There are as many convolution kernels as there are feature maps.
+### caution
+If you want to run a project cloning from the github, remembering that you really need to read the introduction at first.
