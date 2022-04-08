@@ -5,3 +5,5 @@
     densenet 如何实现的稠密连接，这点还不是很清楚，另外也可以跑一跑denseblock的代码，沐神那里应该有可以现成使用的。
 ### debug
 [introduction](https://blog.csdn.net/liu201812/article/details/107620068)
+### convolutional kernel
+to correct some opinions before, the convolutional kernel size is matched to the size of input matrix. So if the matrix is 3 dimensions, the kernel size is also the same. And to get the               multi-channel output, the kernel size generally has one more dimension than the input matrix. 
