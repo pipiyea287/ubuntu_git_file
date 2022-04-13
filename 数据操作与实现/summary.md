@@ -9,3 +9,5 @@
 to correct some opinions before, the convolutional kernel size is matched to the size of input matrix. So if the matrix is 3 dimensions, the kernel size is also the same. And to get the               multi-channel output, the kernel size generally has one more dimension than the input matrix. 
 ### model save
 [explaination](https://www.ylkz.life/deeplearning/p12977315/)
+### tqdm 
+it can display the progress bar.
