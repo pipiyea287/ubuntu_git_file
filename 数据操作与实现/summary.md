@@ -11,3 +11,5 @@ to correct some opinions before, the convolutional kernel size is matched to the
 [explaination](https://www.ylkz.life/deeplearning/p12977315/)
 ### tqdm 
 it can display the progress bar.
+### tensor
+[interpretation](https://jishuin.proginn.com/p/763bfbd6ddd0)
