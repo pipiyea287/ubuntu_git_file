@@ -13,3 +13,8 @@ to correct some opinions before, the convolutional kernel size is matched to the
 it can display the progress bar.
 ### tensor
 [interpretation](https://jishuin.proginn.com/p/763bfbd6ddd0)
+### VGG
+[easy understanding](https://zhuanlan.zhihu.com/p/41423739)
+In VGG, the kernel 5 * 5 is replaced by 2 3 * 3 kernel for the same receptive field size they have.
+### the calculation way for convolution layer and full connected layer parameters.
+[explanation](https://zhuanlan.zhihu.com/p/77471991)
