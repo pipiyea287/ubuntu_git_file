@@ -20,3 +20,5 @@ In VGG, the kernel 5 * 5 is replaced by 2 3 * 3 kernel for the same receptive fi
 [explanation](https://zhuanlan.zhihu.com/p/77471991)
 ### about the python matiplot
 [explanation](https://zhuanlan.zhihu.com/p/33270402)
+### NiN block
+The major in NiN block is using the 1 * 1 conv2d to replace the linear layer, so it avoids the huge parameters well created by full connected layer well. And because of the 1 * 1 conv2d, until the last block, it need utilize the adaptiveAvgpooling layer to change the height and width to 1, so in the next step,  you just need flatten it to 10 dims vector to complete the classification tasks.
