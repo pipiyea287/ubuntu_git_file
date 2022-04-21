@@ -22,3 +22,5 @@ In VGG, the kernel 5 * 5 is replaced by 2 3 * 3 kernel for the same receptive fi
 [explanation](https://zhuanlan.zhihu.com/p/33270402)
 ### NiN block
 The major in NiN block is using the 1 * 1 conv2d to replace the linear layer, so it avoids the huge parameters well created by full connected layer well. And because of the 1 * 1 conv2d, until the last block, it need utilize the adaptiveAvgpooling layer to change the height and width to 1, so in the next step,  you just need flatten it to 10 dims vector to complete the classification tasks.
+### BN layer
+It is used to adjust the distribution of the samples to avoild the gradient vanish or explosion. For 1 * 1 conv layer, it effects on the channel dims. And to full connected layer, it acts on the features. It is always put on the front the ReLU layer, because all the samples will be changed to positive after the ReLU layer and it is contradicted with the goal of the BN layer which is used to uniform the sample distributions. 
