@@ -27,3 +27,4 @@ It is used to adjust the distribution of the samples to avoild the gradient vani
 2 the dormula:
 ![](http://latex.codecogs.com/svg.latex?x_{i+1}=\gamma\frac{x_{i}-\hat{\mu_{B}}}{\hat{\sigma_{B}}}+\beta)   
 it may act for the noise added in each batches. The noise generated in the process of calculating mean and standard deviation in each batch. And it can accelerate the speed of convergence without changing the accuracy of the model. with the help of BN layer, the learning rate can be set as 0.1, not 0.01 without the BN layer.
+
