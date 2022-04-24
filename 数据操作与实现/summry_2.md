@@ -12,5 +12,6 @@ Inside this formula, p_i denotes the value of the given label y, while q_i is th
   To  reduce the effect of the real tables, we introduce the smoothing label and the improved formula is as follows:  
     ![](http://latex.codecogs.com/svg.latex?y_{i}=1-\alpha)  *if i = target*    
     ![](http://latex.codecogs.com/svg.latex?y_{i}^{'}=\frac{\alpha}{K})       *otherwise*    
+    scatter_: a functuion for reordering as the sequence of index. It assigns a dimension, and the value will not change in its.
       
  
