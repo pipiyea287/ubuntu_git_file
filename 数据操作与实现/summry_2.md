@@ -8,4 +8,8 @@ Remember the formula: y = f(x) + g(f(x))
 ### CrossEntropy loss
 For CrossEntropy loss,   
 ![](http://latex.codecogs.com/svg.latex?l=\sum_{i}{p_{i}\log{q_{i}}}) 
-Inside this formula, p_i denotes the value of the given label y, while q_i is the predicted value. For this formula, the less the value is, the more accurate the prediction is.
+Inside this formula, p_i denotes the value of the given label y, while q_i is the predicted value. For this formula, the less the value is, the more accurate the prediction is.  
+  To  reduce the effect of the real tables, we introduce the smoothing label and the improved formula is as follows:  
+    ![](http://latex.codecogs.com/svg.latex?y_{i}=1-\alpha)  if i = target    
+    ![](http://latex.codecogs.com/svg.latex?y_{i}^{'}\frac{\alpha}{K})  etherwise
+ 
