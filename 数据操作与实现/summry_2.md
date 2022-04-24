@@ -5,3 +5,5 @@ when you use F.ReLu to define the ReLu layer, it will not pirnt the layer name a
 resnet is a useful network for solving gradient relative problems, like gradient vanish or explosion. 
 It is because of the residual path, by using this path, all the layers just like going through a fast speed road to get a propel gradient value.  
 Remember the formula: y = f(x) + g(f(x))
+### CrossEntropy loss
+For CrossEntropy loss, 
