@@ -5,3 +5,5 @@
 ### soft-threhold activation layer
 [interpretation](https://blog.csdn.net/jbb0523/article/details/52103257)    
     soft-threhold is setted for solve the optimization of sparse coding, the solution of the sparse coding is just the presentation of soft-threhold.
+### sparse representation
+[interpretation](https://blog.csdn.net/weixin_43194305/article/details/108783971)
