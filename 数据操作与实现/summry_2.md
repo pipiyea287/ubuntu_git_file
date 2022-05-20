@@ -13,5 +13,7 @@ Inside this formula, p_i denotes the value of the given label y, while q_i is th
     ![](http://latex.codecogs.com/svg.latex?y_{i}=1-\alpha)  *if i = target*    
     ![](http://latex.codecogs.com/svg.latex?y_{i}^{'}=\frac{\alpha}{K})       *otherwise*    
     scatter_: a functuion for reordering as the sequence of index. It assigns a dimension, and the value will not change in its.
+### data-augmentation
+for data agumentation, remember that it needs to fit the real environment. For example,  detecting a object whether is a cat or not, it is difficult to get a image with upside down cat. 
       
  
