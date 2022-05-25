@@ -16,5 +16,6 @@ Inside this formula, p_i denotes the value of the given label y, while q_i is th
 ### data-augmentation
 for data agumentation, remember that it needs to fit the real environment. For example,  detecting a object whether is a cat or not, it is difficult to get a image with upside down cat.   
   The main purpose of the augmentation is to get more data that fits the real scene, in another way, geting more images that are the same as the image in test dataset. You need always think about the possible things that will be met in the real use scenarios.
-      
+ ###how to write a pytorch dataset
+ ![process](https://zhuanlan.zhihu.com/p/35698470)
  
