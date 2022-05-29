@@ -21,11 +21,12 @@ for data agumentation, remember that it needs to fit the real environment. For e
  ### lambda in python
  [intraoduction](https://blog.csdn.net/zjuxsl/article/details/79437563)
 ### an interesting interpretation for momentum gradient descent.
-[interpredation](https://www.zhihu.com/question/24529483)
-![](http://latex.codecogs.com/svg.latex?x=x+v ) 
-![](http://latex.codecogs.com/svg.latex?v=bv-adx) 
-  if the former v and latter v are in the same direction,  it is just like there is a momentum impulse increasing the change of x, and of course, x will converge faster.
-
+[interpredation](https://www.zhihu.com/question/24529483)  
+  ![](http://latex.codecogs.com/svg.latex?x=x+v )  
+    ![](http://latex.codecogs.com/svg.latex?v=\beta*v-\alpha*dx)   
+      if the former v and latter v are in the same direction,  it is just like there is a momentum impulse increasing the change of x, and of course, x will converge faster.
+### momentum decay and learning rate decay
+[interpretation](https://blog.csdn.net/program_developer/article/details/80867468)
 ### the method to change  numpy to list.
 1 change numpy to list: a.tolist()  
   2 convert list to numpy: np.array(a)
