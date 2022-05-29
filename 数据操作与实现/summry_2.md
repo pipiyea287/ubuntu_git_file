@@ -20,3 +20,6 @@ for data agumentation, remember that it needs to fit the real environment. For e
  [process](https://zhuanlan.zhihu.com/p/35698470)
  ### lambda in python
  [intraoduction](https://blog.csdn.net/zjuxsl/article/details/79437563)
+### an interesting interpretation for momentum gradient descent.
+[interpredation](https://www.zhihu.com/question/24529483)
+![](http://latex.codecogs.com/svg.latex?x <-- x + v, v = \beta*v - \alpha*dx) 
