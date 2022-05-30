@@ -30,3 +30,5 @@ for data agumentation, remember that it needs to fit the real environment. For e
 ### the method to change  numpy to list.
 1 change numpy to list: a.tolist()  
   2 convert list to numpy: np.array(a)
+###  method for fast loading the pretrained parameters into the model
+[link](https://blog.csdn.net/t20134297/article/details/103885879)
