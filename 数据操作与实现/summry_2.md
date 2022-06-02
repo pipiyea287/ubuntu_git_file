@@ -32,5 +32,8 @@ for data agumentation, remember that it needs to fit the real environment. For e
   2 convert list to numpy: np.array(a)
 ###  method for fast loading the pretrained parameters into the model
 [link](https://blog.csdn.net/t20134297/article/details/103885879)
-
+### prior estimate and posteriori estimate
+[link](https://blog.csdn.net/qq_17478541/article/details/78354648)  
+  the prior estimate is from the reasons to the results. It is gotten from the modal prediction. While the posteriori
+  estimate means revising the prior one by the new information like measurement value to get close to the real one.
 
