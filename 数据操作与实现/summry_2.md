@@ -36,4 +36,9 @@ for data agumentation, remember that it needs to fit the real environment. For e
 [link](https://blog.csdn.net/qq_17478541/article/details/78354648)  
   the prior estimate is from the reasons to the results. It is gotten from the modal prediction. While the posteriori
   estimate means revising the prior one by the new information like measurement value to get close to the real one.
+  ### for resize
+  in classification task, it is easy to resize the picture to make sure the same shape of each pictures. But in segementation task,     
+      the label contains the semantic information. It is impossible to resize the features and labels at the same time. The main    
+          reason for the same shape of features is that the features is trained in the net in batches. If the batchsize is 1,   considering     
+            that convolution is independent of the size of images, the net can cope with the images with different sizes. 
 
